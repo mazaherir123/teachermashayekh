@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# جلوگیری از ایندکس بخش‌های غیرضروری (در صورت وجود)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+
+# فایل‌های سیستمی GitHub (اختیاری ولی حرفه‌ای)
+Disallow: /.github/
+Disallow: /node_modules/
+
+# فایل‌های حساس احتمالی
+Disallow: *.json$
+Disallow: *.log$
+
+# Sitemap اصلی سایت
+Sitemap: https://teachermashayekh.ir/sitemap.xml
+
+# Crawl delay (اختیاری - برای جلوگیری از فشار خزیدن)
+Crawl-delay: 1
