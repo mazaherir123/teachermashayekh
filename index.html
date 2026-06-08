@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تیچر مشایخ | ابزارهای آموزشی ابتدایی، فایل‌های تدریس و روش‌های نوین آموزش</title>
+
+<meta name="description" content="تیچر مشایخ ارائه‌دهنده ابزارهای آموزشی خلاق، فایل‌های آماده تدریس، طرح درس و روش‌های نوین آموزش برای معلمان دوره ابتدایی در ایران.">
+<meta name="keywords" content="آموزش ابتدایی, ابزار آموزشی, طرح درس ابتدایی, فایل آموزشی معلمان, ریاضی ابتدایی, روش تدریس نوین, تیچر مشایخ">
+<meta name="author" content="Teacher Mashayekh">
+
+<!-- SEO Technical -->
+<meta name="robots" content="index, follow">
+<meta name="language" content="fa">
+<meta name="theme-color" content="#1e3a8a">
+
+<!-- Open Graph -->
+<meta property="og:title" content="تیچر مشایخ | آموزش ابتدایی حرفه‌ای">
+<meta property="og:description" content="ابزارهای آموزشی، فایل‌های آماده و روش‌های نوین تدریس برای معلمان ابتدایی">
+<meta property="og:image" content="https://themefars.com/wp-content/uploads/2023/12/what-is-a-website-header-2048x1072.jpg.webp">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Schema.org (stronger SEO entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "تیچر مشایخ",
+  "url": "https://example.com",
+  "description": "سایت ابزارهای آموزشی و فایل‌های تدریس برای معلمان ابتدایی",
+  "sameAs": [
+    "https://eitaa.com/teacher_mashayekh"
+  ]
+}
+</script>
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* ================= ROOT DESIGN SYSTEM ================= */
+:root{
+  --primary:#1e3a8a;
+  --accent:#fbbf24;
+  --danger:#ef4444;
+  --bg:#0b1220;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Vazirmatn",sans-serif;
+}
+
+body{
+  background:#f8fafc;
+  color:#111;
+  overflow-x:hidden;
+  line-height:1.8;
+}
+
+/* ================= HEADER (BRAND SEO SIGNAL) ================= */
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 18px;
+  background:rgba(255,255,255,0.9);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid #eee;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.brand img{
+  width:44px;
+  height:44px;
+  border-radius:10px;
+}
+
+.brand span{
+  font-weight:700;
+}
+
+/* ================= HERO ================= */
+.hero{
+  position:relative;
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:url("https://banner2.cleanpng.com/20240120/uwo/transparent-magnifying-glass-open-book-with-scientific-diagrams-illuminated-1710891314701.webp") center/cover;
+}
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg,rgba(30,58,138,0.75),rgba(0,0,0,0.65),rgba(239,68,68,0.35));
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:820px;
+  padding:20px;
+  color:#fff;
+}
+
+/* ================= SEO H1 ================= */
+h1{
+  font-size:42px;
+  font-weight:800;
+  background:linear-gradient(90deg,#fff,var(--accent),#fff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* Subtitle */
+.hero p{
+  margin-top:12px;
+  font-size:16px;
+  color:#e5e7eb;
+}
+
+/* ================= CTA BUTTONS ================= */
+.cta{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:25px;
+}
+
+.btn{
+  padding:12px 18px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:600;
+  min-width:150px;
+  transition:0.3s;
+}
+
+.primary{
+  background:linear-gradient(135deg,var(--primary),var(--danger));
+  color:#fff;
+}
+
+.secondary{
+  border:2px solid var(--accent);
+  color:#fff;
+}
+
+.ghost{
+  background:rgba(251,191,36,0.15);
+  color:#fff;
+}
+
+.btn:hover{
+  transform:translateY(-4px);
+}
+
+/* ================= SEO CONTENT BLOCK ================= */
+.seo-text{
+  margin-top:18px;
+  font-size:14px;
+  color:#d1d5db;
+  max-width:700px;
+  margin-inline:auto;
+}
+
+/* ================= FEATURE SECTION ================= */
+section{
+  padding:50px 20px;
+}
+
+h2{
+  text-align:center;
+  font-size:24px;
+  color:#1e3a8a;
+  margin-bottom:20px;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:15px;
+}
+
+.card{
+  background:#fff;
+  border-radius:14px;
+  padding:18px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+  border-top:3px solid var(--accent);
+}
+
+/* ================= SLIDER ================= */
+.slider{
+  margin-top:25px;
+  height:40px;
+  position:relative;
+}
+
+.slide{
+  position:absolute;
+  width:100%;
+  opacity:0;
+  transition:0.5s;
+  color:var(--accent);
+  font-weight:600;
+}
+
+.slide.active{
+  opacity:1;
+}
+
+/* ================= FOOTER ================= */
+footer{
+  text-align:center;
+  padding:25px;
+  background:#fff;
+  color:#666;
+  border-top:1px solid #eee;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="brand">
+    <img src="https://icon2.cleanpng.com/ci4/agz/ysy/voerqlpq2.webp" alt="تیچر مشایخ">
+    <span>تیچر مشایخ</span>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <!-- H1 SEO -->
+    <h1>ابزارهای آموزشی ابتدایی و روش‌های نوین تدریس</h1>
+
+    <p>
+      مرجع تخصصی فایل‌های آموزشی، طرح درس و ابزارهای خلاق برای معلمان دوره ابتدایی در ایران
+    </p>
+
+    <!-- CTA -->
+    <div class="cta">
+      <a class="btn primary" href="https://eitaa.com/teacher_mashayekh">ورود به کانال</a>
+      <a class="btn secondary" href="#">دانلود فایل‌ها</a>
+      <a class="btn ghost" href="#">ابزارهای آموزشی</a>
+    </div>
+
+    <!-- SEO TEXT -->
+    <div class="seo-text">
+      این وب‌سایت مجموعه‌ای از منابع آموزشی استاندارد شامل ریاضی ابتدایی، علوم، طرح درس و ابزارهای تدریس خلاق را برای معلمان فراهم می‌کند.
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider">
+      <div class="slide active">📘 آموزش ریاضی ابتدایی</div>
+      <div class="slide">🧠 روش‌های تدریس نوین</div>
+      <div class="slide">📂 فایل‌های آماده کلاس درس</div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section>
+
+  <h2>دسته‌بندی منابع آموزشی</h2>
+
+  <div class="features">
+
+    <div class="card">
+      <h3>ریاضی ابتدایی</h3>
+      <p>تمرین‌ها و ابزارهای مفهومی برای یادگیری بهتر</p>
+    </div>
+
+    <div class="card">
+      <h3>روش تدریس</h3>
+      <p>شیوه‌های نوین و خلاقانه آموزش در کلاس درس</p>
+    </div>
+
+    <div class="card">
+      <h3>فایل‌های آماده</h3>
+      <p>PDF و ابزارهای قابل استفاده برای معلمان</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+© 2026 تیچر مشایخ | تمامی حقوق محفوظ است
+</footer>
+
+<script>
+
+let slides=document.querySelectorAll(".slide");
+let i=0;
+
+setInterval(()=>{
+  slides.forEach(s=>s.classList.remove("active"));
+  slides[i].classList.add("active");
+  i=(i+1)%slides.length;
+},3000);
+
+</script>
+
+</body>
+</html>
