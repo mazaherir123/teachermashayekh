@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+
+Disallow: /.github/
+Disallow: /node_modules/
+
+Disallow: *.json$
+Disallow: *.log$
+
+Sitemap: https://teachermashayekh.ir/sitemap.xml
+
+Crawl-delay: 1
